@@ -1,5 +1,5 @@
 {
-    "name": "qyro/qyro-php-sdk",
+    "name": "qyroai/qyro-php-sdk",
     "description": "Qyro PHP SDK for interacting with assistants, sessions, and chat APIs.",
     "type": "library",
     "license": "MIT",

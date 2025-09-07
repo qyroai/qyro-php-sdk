@@ -7,7 +7,7 @@ Qyro PHP SDK for interacting with assistants, sessions, and chat APIs.
 Install via Composer:
 
 ```bash
-composer require qyro/qyro-php-sdk
+composer require qyroai/qyro-php-sdk
 ```
 
 ## Usage
