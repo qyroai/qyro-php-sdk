@@ -1,5 +1,6 @@
 <?php
 
+namespace QyroSdk;
 
 use QyroSdk\Auth\ApiKeyAuth;
 use QyroSdk\Exceptions\{HTTPError, ConfigurationError};
