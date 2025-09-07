@@ -17,14 +17,14 @@ composer require qyroai/qyro-php-sdk
 
 require __DIR__ . '/vendor/autoload.php';
 
-use QyroSdk\Auth\ClientTokenGenerator;
-use QyroSdk\Server\QyroServerClient;
-use QyroSdk\Client\QyroClient;
-
 $BASE_URL = "https://qyroai.com";
 $API_KEY_ID = "<>";
 $API_KEY_SECRET = "<>";
 $ASSISTANT_ID = "<>";
+
+use QyroSdk\Auth\ClientTokenGenerator;
+use QyroSdk\QyroClient;
+use QyroSdk\QyroServerClient;
 
 // --- Server SDK Usage ---
 $serverClient = new QyroServerClient(
@@ -66,6 +66,7 @@ $outputMessages = $client->chat(
 );
 
 print_r($outputMessages);
+
 ```
 
 ## Requirements
